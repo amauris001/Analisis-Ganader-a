@@ -51,7 +51,8 @@ header.top {
 .recargar.girando svg { animation: girar .8s linear infinite; }
 @keyframes girar { to { transform: rotate(360deg); } }
 
-svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+   .recargar svg, nav.barra svg { stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Pestañas */
 main { max-width: 1120px; margin: 0 auto; }
